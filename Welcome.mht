@@ -1,0 +1,89 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://cts1861c.neocities.org/Lesson03Assignment
+Subject: Welcome
+Date: Sun, 04 Oct 2026 20:32:16 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--7QsBfk6uLDJJTsur8t97XG3qRevQl20uDsP7Ul0TlF----"
+
+
+------MultipartBoundary--7QsBfk6uLDJJTsur8t97XG3qRevQl20uDsP7Ul0TlF----
+Content-Type: text/html
+Content-ID: <frame-F3AD7C65BA2B5F716E83261A7A1866A8@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://cts1861c.neocities.org/Lesson03Assignment
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Welcome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <div>
+    <h1>Our Website</h1>
+    <p>
+      This website is designed to provide information about our services.
+      Please look around and find what you need.
+    </p>
+  </div>
+
+  <div>
+    <h2>Navigation</h2>
+    <p>
+      <a href="https://cts1861c.neocities.org/Lesson03Assignment#">Home</a> |
+      <a href="https://cts1861c.neocities.org/Lesson03Assignment#">About</a> |
+      <a href="https://cts1861c.neocities.org/Lesson03Assignment#">Services</a> |
+      <a href="https://cts1861c.neocities.org/Lesson03Assignment#">Contact</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>About Us</h2>
+    <p>
+      We have been in business for a long time and we do many things for many
+      people. Our goal is to help everyone as best as we can.
+    </p>
+    <p>
+      Our team works hard to deliver solutions that meet customer expectations.
+    </p>
+  </div>
+
+  <div>
+    <h2>Our Services</h2>
+    <p>
+      We offer several services that may or may not be useful to you depending
+      on what you are looking for.
+    </p>
+
+    <ul>
+      <li>Service One</li>
+      <li>Service Two</li>
+      <li>Service Three</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact Information</h2>
+    <p>
+      If you would like more information, please contact us.
+    </p>
+
+    <p>
+      Email: info@example.com<br>
+      Phone: 555-123-4567
+    </p>
+  </div>
+
+  <div>
+    <p>
+      © 2026 Example Company
+    </p>
+  </div>
+
+
+
+</body></html>
+------MultipartBoundary--7QsBfk6uLDJJTsur8t97XG3qRevQl20uDsP7Ul0TlF------
