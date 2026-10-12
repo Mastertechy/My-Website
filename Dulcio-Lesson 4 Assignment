@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BluePeak Solutions - Professional Web Development & Design</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">BluePeak Solutions</div>
+    <div class="tiny">Modern Web Development & Design Services Since 2025</div>
+
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="columns">
+      <main class="main">
+        <span class="badge">Verified Digital Agency</span>
+        <h1>Welcome</h1>
+
+        <p>
+          BluePeak Solutions delivers fast, high-quality digital solutions tailored to your business needs, including custom web development, user experience (UX) design, search engine optimization (SEO), and digital marketing strategies.
+        </p>
+
+        <div class="notice">
+          <strong>Notice:</strong> Images and logos displayed on this site are utilized strictly for educational demonstration under fair use guidelines.
+        </div>
+
+        <h3>Featured Work</h3>
+
+        <p>
+          <img src="hero.jpg" alt="BluePeak responsive website banner design displayed across modern devices" width="520" height="220">
+          <br>
+          Featured responsive website application design for enterprise clients.
+        </p>
+
+        <p>
+          <img src="coffee.jpg" alt="Artisan coffee cup on a rustic wooden table" width="240" height="160">
+          <img src="city.jpg" alt="Metropolitan city skyline during sunset" width="240" height="160">
+          <br>
+          Custom photography and digital assets for corporate branding.
+        </p>
+
+        <div class="cta">
+          <strong>Get a Quote Fast</strong><br>
+          Fill out the form on the right. Our team responds within 24 business hours.
+        </div>
+
+        <h3>Company Policies</h3>
+        <ul>
+          <li>Promotional communications are sent on an opt-in basis with complete subscriber data privacy.</li>
+          <li>Every email includes an automated, single-click unsubscribe link in full compliance with CAN-SPAM regulations.</li>
+        </ul>
+
+        <h3>FAQs</h3>
+        <p><strong>Do you offer refunds?</strong> Refund requests are evaluated on a per-contract agreement basis.</p>
+        <p><strong>How long does a project take?</strong> Standard project turnaround ranges from 2 to 4 weeks depending on scope.</p>
+        <p><strong>Can I update my site later?</strong> Yes, we provide ongoing management and content update packages.</p>
+      </main>
+
+      <aside class="side">
+        <h3>Contact Us</h3>
+
+        <form id="leadForm" action="#" method="post">
+          <div class="form-row">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="jane@example.com" required>
+          </div>
+
+          <div class="form-row">
+            <label for="topic">Service Needed</label>
+            <input id="topic" name="topic" type="text" placeholder="Website, SEO, Branding, etc.">
+          </div>
+
+          <button type="submit">SEND REQUEST</button>
+
+          <div class="error" id="errorMsg">Error: Please fill out all required fields.</div>
+
+          <p class="tiny">
+            By submitting, you agree to receive requested project communications and updates.
+          </p>
+        </form>
+
+        <hr>
+
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <h3>Brand Colors</h3>
+        <p class="tiny">
+          Blue: #0b2d5c<br>
+          Yellow: #ffd54f<br>
+          Pink Accent: #ff0066
+        </p>
+      </aside>
+    </div>
+
+    <footer>
+      <div>
+        &copy; 2026 BluePeak Solutions. All Rights Reserved. Educational demonstration site.
+      </div>
+      <div class="tiny">
+        Address: 123 Anywhere St. &bull; Phone: (555) 019-2831 &bull; Email: hello@bluepeak.example<br>
+        To manage your email preferences or unsubscribe, click the link provided in our communications.
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
+
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #222222; /* Fixed low-contrast text from original rgb(154, 154, 154) */
+    background: #ffffff; 
+    line-height: 1.5;
+}
+
+header { 
+    padding: 15px 20px; 
+    border-bottom: 6px solid #0b2d5c; 
+    background: #ffffff;
+}
+
+.logo { 
+    font-size: 34px; 
+    font-weight: 700; 
+    letter-spacing: 1px; 
+    font-family: Arial, sans-serif; 
+    color: #0b2d5c; 
+}
+
+nav { 
+    margin-top: 10px; 
+    background: #e9e9e9; 
+    padding: 8px; 
+}
+
+nav a { 
+    color: #0b2d5c; 
+    text-decoration: none; 
+    padding: 8px 12px; 
+    margin-right: 4px; 
+    background: #f8f8f8; 
+    border: 1px solid #dddddd; 
+    font-size: 14px; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover, nav a:focus { 
+    background: #0b2d5c; 
+    color: #ffffff; 
+}
+
+.container { 
+    max-width: 980px; 
+    margin: 0px auto; 
+    padding: 15px; 
+}
+
+.columns { 
+    display: flex; 
+    gap: 20px; 
+    align-items: flex-start; 
+}
+
+.main { 
+    width: 65%; 
+    padding: 10px; 
+}
+
+.side { 
+    width: 35%; 
+    padding: 15px; 
+    background: #fbfbfb; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 4px;
+}
+
+h1 { 
+    margin: 8px 0px 10px; 
+    font-size: 36px; 
+    color: #0b2d5c; 
+    font-family: Georgia, serif; 
+}
+
+h3 { 
+    margin: 18px 0px 8px; 
+    font-size: 18px; 
+    font-family: Arial, sans-serif; 
+    color: #0b2d5c; 
+    text-transform: uppercase; 
+    border-bottom: 2px solid #ffd54f;
+    padding-bottom: 4px;
+}
+
+.badge { 
+    display: inline-block; 
+    background: #ffd54f; 
+    color: #111111; 
+    padding: 4px 8px; 
+    font-size: 12px; 
+    font-weight: bold;
+    border-radius: 4px; 
+    margin-bottom: 8px; 
+}
+
+.main a { 
+    color: #c2004d; /* Darkened pink accent for WCAG AA contrast compliance */
+    text-decoration: underline;
+}
+
+.notice { 
+    background: #fff3cd; 
+    border: 1px solid #ffeeba; 
+    padding: 12px; 
+    margin: 15px 0px; 
+    font-size: 13px; 
+    color: #2b2b2b; 
+    border-radius: 4px;
+}
+
+.cta { 
+    background: #0b2d5c; 
+    color: #ffffff; 
+    padding: 15px; 
+    margin: 15px 0px; 
+    font-family: Arial, sans-serif; 
+    border-radius: 4px;
+}
+
+.form-row { 
+    margin-bottom: 12px; 
+}
+
+label { 
+    display: block; 
+    font-size: 13px; 
+    font-weight: bold;
+    margin-bottom: 4px; 
+    color: #333333; 
+}
+
+input[type="text"], input[type="email"] { 
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    font-size: 14px; 
+}
+
+button { 
+    width: 100%;
+    padding: 10px; 
+    border: none; 
+    background: #ffd54f; 
+    color: #111111;
+    cursor: pointer; 
+    font-weight: 700; 
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background: #e6be3b;
+}
+
+footer { 
+    margin-top: 20px; 
+    padding: 15px; 
+    background: #222222; 
+    color: #dddddd; 
+    font-size: 12px; 
+    line-height: 1.4; 
+    border-radius: 4px;
+}
+
+.tiny { 
+    font-size: 11px; 
+    color: #555555; 
+}
+
+footer .tiny {
+    color: #aaaaaa;
+    margin-top: 6px;
+}
+
+.error { 
+    color: #c62828; 
+    font-weight: 700; 
+    font-size: 12px; 
+    margin-top: 6px; 
+    display: none; 
+}
