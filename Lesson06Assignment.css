@@ -1,1 +1,190 @@
+/* General Page Styling */
+* {
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header Banner */
+.site-header {
+    width: 100%;
+    text-align: center;
+}
+
+.site-header img {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Navigation */
+.main-nav {
+    background-color: #1f3d5a;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    padding: 15px 20px;
+}
+
+.main-nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 2px;
+}
+
+.main-nav a:hover,
+.main-nav a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Main Content */
+.page-container {
+    width: 92%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+/* Typography */
+h1,
+h2 {
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    color: #1f3d5a;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1f3d5a;
+}
+
+p {
+    font-size: 1rem;
+    overflow-wrap: break-word;
+}
+
+/* Content Columns */
+.two-column {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+}
+
+.column {
+    min-width: 0;
+}
+
+.column img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.site-footer {
+    clear: both;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+/* Tablet and Smartphone Layout */
+@media (max-width: 700px) {
+    .main-nav ul {
+        justify-content: flex-start;
+    }
+
+    .main-nav li {
+        padding: 10px 12px;
+    }
+
+    .page-container {
+        width: 90%;
+        margin: 24px auto;
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .intro {
+        margin-bottom: 24px;
+    }
+}
+
+/* Smaller Smartphone Screens */
+@media (max-width: 400px) {
+    .main-nav li {
+        padding: 8px 10px;
+    }
+
+    .main-nav a {
+        font-size: 0.9rem;
+    }
+
+    .page-container {
+        width: 92%;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .site-footer {
+        padding: 18px 12px;
+    }
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
